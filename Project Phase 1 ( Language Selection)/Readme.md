@@ -4,7 +4,7 @@
 StdID | Name
 ------------ | -------------
 **8866** | **Farhan Amin**
-8938 | Shahruh Shabbir
+8938 | Shahruh Shabbir Abbasi
 
 ## Language Selected ##
 Mini-C
