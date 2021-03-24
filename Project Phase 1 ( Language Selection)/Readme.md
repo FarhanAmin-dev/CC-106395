@@ -1,6 +1,6 @@
-#CC Spring 2021: Project Phase 1#
+# CC Spring 2021: Project Phase 1 #
 
-###PROJECT MEMBERS###
+### PROJECT MEMBERS ###
 StdID | Name
 ------------ | -------------
 **8866** | **Farhan Amin**
@@ -30,14 +30,16 @@ sum=sum+i;
 
 ```
 
-## Lexical Specification##
+## Lexical Specification ##
 
- 'x' — terminal symbol.
- x? – zero or one occurrences of x.
- x* – zero or more occurrences of x.
- x+ – one or more occurrences of x.
- x | y – alternative (x or y).
- () – group, for example (x | y) z (x y)?
+```
+
+ 'x' â€” terminal symbol.
+ x? â€“ zero or one occurrences of x.
+ x* â€“ zero or more occurrences of x.
+ x+ â€“ one or more occurrences of x.
+ x | y â€“ alternative (x or y).
+ () â€“ group, for example (x | y) z (x y)?
 program = statement*
 statement = block
  	| SEMI
@@ -96,7 +98,13 @@ LETTER = 'a' | ... | 'z' | 'A' | ... | 'Z'
 CHAR = <unicode character, as in Java>
 Whitespace characters (' ' , ' \t' , ' \r' , ' \n' ) are skipped outside of tokens.
 
+```
+
+
 ## Language CFG ##
+
+```
+
 
 Function      ->  Type identifier ( ArgList ) CompoundStmt
 ArgList       ->  Arg
@@ -140,3 +148,5 @@ Factor        ->  ( Expr )
                   | + Factor
                   | identifier
                   | number
+
+```
