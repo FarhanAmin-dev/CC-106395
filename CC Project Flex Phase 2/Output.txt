@@ -1,0 +1,110 @@
+This is Pre-processor directive: #include <stdio.h>
+
+This is Keyword: int
+
+This is Function: main(
+
+This is Delimiter: )
+
+This is Delimiter: {
+
+This is Keyword: int
+
+This is Identifier: n
+
+This is Delimiter: ,
+
+This is Identifier: i
+
+This is Delimiter: ;
+
+This is Function: printf(
+
+this is String:"Enter an A Integer No: "
+
+This is Delimiter: )
+
+This is Delimiter: ;
+
+This is Function: scanf(
+
+this is String:"%d"
+
+This is Delimiter: ,
+
+This is Special Characters: &
+
+This is Identifier: n
+
+This is Delimiter: )
+
+This is Delimiter: ;
+
+This is Identifier: for
+
+This is Delimiter: (
+
+This is Identifier: i
+
+This is Assignment Operator: =
+
+This is Integer: 1
+
+This is Delimiter: ;
+
+This is Identifier: i
+
+This is Relational Operator: <=
+
+This is Integer: 10
+
+This is Delimiter: ;
+
+This is Relational Operator: ++
+
+This is Identifier: i
+
+This is Delimiter: )
+
+This is Delimiter: {
+
+This is Function: printf(
+
+this is String:"%d * %d = %d \n"
+
+This is Delimiter: ,
+
+This is Identifier: n
+
+This is Delimiter: ,
+
+This is Identifier: i
+
+This is Delimiter: ,
+
+This is Identifier: n
+
+This is Arithmatic Operator: *
+
+This is Identifier: i
+
+This is Delimiter: )
+
+This is Delimiter: ;
+
+This is Delimiter: }
+
+This is Keyword: return
+
+This is Integer: 0
+
+This is Delimiter: ;
+
+This is Delimiter: }
+
+
+
+
+
+
+ Total Tokens = 52
