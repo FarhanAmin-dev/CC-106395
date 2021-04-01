@@ -1,0 +1,109 @@
+This is Directive: #include <stdio.h>
+
+This is Keyword: int
+
+This is Function: main(
+
+This is Delimiter: )
+
+This is Delimiter: {
+
+This is Keyword: int
+
+This is Identifier: n
+
+This is Delimiter: ,
+
+This is Identifier: i
+
+This is Delimiter: ;
+
+This is Function: printf(
+
+this is String:"Enter an A Integer No: "
+
+This is Delimiter: )
+
+This is Delimiter: ;
+
+This is Function: scanf(
+
+this is String:"%d"
+
+This is Delimiter: ,
+
+This is Special_Characters: &
+
+This is Identifier: n
+
+This is Delimiter: )
+
+This is Delimiter: ;
+
+This is Identifier: for
+
+This is Delimiter: (
+
+This is Identifier: i
+
+This is Assignment_Operator: =
+
+This is Integer: 1
+
+This is Delimiter: ;
+
+This is Identifier: i
+
+This is Relational_Operator: <=
+
+This is Integer: 10
+
+This is Delimiter: ;
+
+This is Relational_Operator: ++
+
+This is Identifier: i
+
+This is Delimiter: )
+
+This is Delimiter: {
+
+This is Function: printf(
+
+this is String:"%d * %d = %d \n"
+
+This is Delimiter: ,
+
+This is Identifier: n
+
+This is Delimiter: ,
+
+This is Identifier: i
+
+This is Delimiter: ,
+
+This is Identifier: n
+
+This is Arithmatic_Operator: *
+
+This is Identifier: i
+
+This is Delimiter: )
+
+This is Delimiter: ;
+
+This is Delimiter: }
+
+This is Keyword: return
+
+This is Integer: 0
+
+This is Delimiter: ;
+
+This is Delimiter: }
+
+
+
+
+
+ Total Numbers of Tokens = 52
